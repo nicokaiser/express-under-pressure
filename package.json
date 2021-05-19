@@ -1,0 +1,30 @@
+{
+  "name": "express-under-pressure",
+  "version": "0.0.1",
+  "description": "Measure process load with automatic handling of 'Service Unavailable' plugin for Express.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "keywords": [
+    "express",
+    "service unavailable",
+    "limit",
+    "delay",
+    "retry"
+  ],
+  "author": "Nico Kaiser (https://kaiser.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "http-errors": "^1.8.0",
+    "toobusy-js": "^0.5.1"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
