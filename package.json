@@ -17,11 +17,11 @@
   "author": "Nico Kaiser (https://kaiser.me)",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.17.1",
-    "standard": "^16.0.3"
+    "express": "^4.17.2",
+    "standard": "^16.0.4"
   },
   "dependencies": {
-    "http-errors": "^1.8.0",
+    "http-errors": "^2.0.0",
     "toobusy-js": "^0.5.1"
   },
   "engines": {
